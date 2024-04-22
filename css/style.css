@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.fontBricolage {
+	font-family: "Bricolage Grotesque", sans-serif;
+}
+.navi {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	justify-content: space-between;
+	gap: 10%;
+	color: rgb(83, 244, 255);
+	background-color: rgb(31, 31, 31);
+	max-width: 70%;
+	padding-left: auto;
+	padding-right: auto;
+	border-radius: 3rem;
+}
+.text a {
+	text-decoration: none;
+	color: rgb(204, 251, 254);
+	font-size: 0.9rem;
+}
+.text a:hover {
+	text-decoration: none;
+	color: rgb(140, 187, 190);
+}
+.image {
+	width: 300px;
+	border-radius: 200px;
+}
+.flex {
+	display: flex;
+}
+.textMain {
+	justify-content: space-around;
+	color: rgb(0, 0, 0);
+	align-items: baseline;
+	padding: 5px;
+	gap: 10px;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.flexBox {
+	padding: 20px;
+}
+.button {
+	background-color: transparent;
+	border-radius: 50px;
+	padding: 8px;
+	font-size: 1.2rem;
+	border: 1px solid black;
+	border-radius: 30px;
+	color: rgb(45, 45, 45);
+}
+.button:hover {
+	background-color: black;
+	border-radius: 50px;
+	padding: 8px;
+	font-size: 1.2rem;
+	border: 1px solid black;
+	border-radius: 30px;
+	color: rgb(240, 240, 240);
+}
+.titleSize {
+	font-size: 3rem;
+}
+.header {
+	justify-content: center;
+	background-color: rgb(204, 251, 254);
+	align-items: center;
+	height: 65vh;
+	color: black;
+	gap: 250px;
+	padding: 50px 30px;
+}
+.color {
+	background-color: rgb(204, 251, 254);
+	height: 100px;
+}
+.slika1 {
+	width: 500px;
+	height: 450px;
+	border: 1px solid white;
+}
+.slika {
+	height: 500px;
+	width: 100%;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(189, 212, 222);
+	background-image: url("../slike/Y22.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.content {
+	background-color: white;
+	height: 200px;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	gap: 5px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.greyText {
+	color: rgb(167, 167, 167);
+	font-size: 1.1rem;
+}
+.titleSize2 {
+	font-size: 2.5rem;
+}
+.navBar {
+	background-color: rgb(204, 251, 254);
+	text-align: -webkit-center;
+}
+.poravnanjeTeksta {
+	text-align: center;
+}
+.content2 {
+	background-color: rgb(255, 255, 255);
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+	color: black;
+	gap: 80px;
+	margin-top: 0px;
+	margin-bottom: 75px;
+}
+.button2 {
+	background-color: rgb(2, 191, 67);
+	padding: 15px;
+	border: 1px solid rgb(2, 191, 67);
+	border-radius: 6vh;
+	color: white;
+	margin-top: 60px;
+}
+.textBox {
+	background-color: rgb(129, 129, 129);
+	padding: 3px 6px;
+	color: rgb(255, 255, 255);
+	border-radius: 50px;
+	font-size: 0.8rem;
+}
+.image2 {
+	width: 400px;
+	border-radius: 5px;
+}
+.contentTextSize {
+	font-size: 1.4rem;
+}
+.flexWrap {
+	word-wrap: break-word;
+}
+.contentAlign {
+	justify-content: space-around;
+	color: rgb(0, 0, 0);
+	align-items: baseline;
+	padding: 5px;
+	gap: 7px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-right: 30px;
+}
+.button3 {
+	background-color: rgb(115, 96, 2);
+	padding: 15px;
+	border: 1px solid rgb(115, 96, 2);
+	border-radius: 4vh;
+	color: white;
+	margin-top: 60px;
+}
+.textBox2 {
+	background-color: rgb(129, 129, 129);
+	padding: 3px 6px;
+	color: rgb(255, 255, 255);
+	border-radius: 50px;
+	font-size: 0.8rem;
+}
+.marginArticle {
+	margin: 75px 0px 75px 0px;
+}
+.image3 {
+	width: 400px;
+	height: 100%px;
+	border-radius: 5px;
+}
+.image4 {
+	width: 400px;
+	border-radius: 5px;
+}
+.button4 {
+	background-color: rgb(225, 223, 0);
+	padding: 15px;
+	border: 1px solid rgb(225, 223, 0);
+	border-radius: 5vh;
+	color: white;
+	margin-top: 60px;
+}
+.emailForm {
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 60vh;
+}
+.footer {
+	padding: 15px;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(88, 88, 88);
+	color: rgb(196, 196, 196);
+}
+.contentRecentWork {
+	background-color: rgb(204, 251, 254);
+	height: 85vh;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 75px;
+}
+.image5 {
+	width: 400px;
+	border-radius: 5px;
+}
+.button5 {
+	background-color: rgb(22, 22, 22);
+	padding: 15px;
+	border: 1px solid rgb(22, 22, 22);
+	border-radius: 5vh;
+	color: white;
+	margin-top: 14px;
+}
+.blackText {
+	color: rgb(22, 22, 22);
+	font-size: 1.1rem;
+}
