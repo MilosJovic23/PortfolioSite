@@ -8,13 +8,14 @@
 .navi {
 	display: flex;
 	align-items: center;
+	padding: 15px;
 	justify-content: space-between;
 	gap: 10%;
 	color: rgb(83, 244, 255);
 	background-color: rgb(31, 31, 31);
 	max-width: 70%;
-	padding: 15px auto;
-
+	padding-left: auto;
+	padding-right: auto;
 }
 .text a {
 	text-decoration: none;
@@ -47,6 +48,7 @@
 }
 .button {
 	background-color: transparent;
+	border-radius: 50px;
 	padding: 8px;
 	font-size: 1.2rem;
 	border: 1px solid black;
@@ -55,6 +57,7 @@
 }
 .button:hover {
 	background-color: black;
+	border-radius: 50px;
 	padding: 8px;
 	font-size: 1.2rem;
 	border: 1px solid black;
@@ -184,11 +187,11 @@
 	font-size: 0.8rem;
 }
 .marginArticle {
-	margin: 75px 0 75px 0;
+	margin: 75px 0px 75px 0px;
 }
 .image3 {
 	width: 400px;
-	height: 100px;
+	height: 100%px;
 	border-radius: 5px;
 }
 .image4 {
