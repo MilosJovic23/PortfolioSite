@@ -16,6 +16,9 @@
 	max-width: 70%;
 	padding-left: auto;
 	padding-right: auto;
+	/*-moz-border-radius-bottomleft: 1rem;*/
+	/*-moz-border-radius-bottomleft: 2rem;*/
+	border-radius: 0 0 1rem 1rem;
 }
 .text a {
 	text-decoration: none;
